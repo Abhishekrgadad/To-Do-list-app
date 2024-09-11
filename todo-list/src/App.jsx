@@ -1,7 +1,13 @@
-import React from 'react'
-
-export default function App() {
+import React from 'react';
+import TodoList from './TodoList';
+import './App.css';
+function App() {
   return (
-    <div>To-Do List</div>
-  )
+    <div>
+     
+      < TodoList />
+    </div>
+  );
 }
+
+export default App;
