@@ -24,7 +24,7 @@ function TodoList() {
 
   return (
     <div className="todo-container">
-      <h1>To-Do List</h1>
+      <h1>To-Do List App</h1>
       <input
         type="text"
         value={newTodo}
